@@ -1,0 +1,114 @@
+body {
+    overflow-x: hidden;
+    margin: 0 0 0 0;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.left-div {
+    margin-left: 90px;
+    margin-top: 72px;
+}
+
+.left-div img {
+    border-radius: 50%;
+    top: 72px;
+    left: 166px;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 15%;
+    background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 31px #0000000A;
+    border: 20px solid #FFFFFF;
+}
+
+.right-div {
+    margin-top: 106px;
+    margin-left: 200px;
+}
+
+.logo-img {
+    top: 106px;
+    left: 906px;
+    width: 272px;
+    height: 58px;
+    margin-bottom: 19.17px;
+}
+
+
+
+.p1 {
+    font-size: 40px;
+    font-family: Roboto, Regular;
+    color: #3E3E3E;
+    width: 700px;
+
+
+}
+
+span {
+    color: #C8242F;
+    font-size: 40px;
+    font: normal normal 900 40px/53px Roboto;
+}
+
+.right-div .p2 {
+    font-size: 25px;
+    font-family: Roboto, Regular;
+    color: #3E3E3E;
+    margin-top: 31.87px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ipuname {
+    margin-top: 23.65px;
+    margin-bottom: 27px;
+}
+
+form input {
+    width: 429px;
+    height: 49px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+
+}
+
+.form-button {
+    display: flex;
+    flex-direction: row;
+}
+
+form button {
+    width: 138px;
+    height: 45px;
+    background: #C8242F 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    color: white;
+    margin-top: 20px;
+    margin-right: 170.44px;
+}
+
+h5 {
+    margin-top: 31px;
+}
+
+.new-member {
+    margin-top: 0px;
+}
+
+.span1 {
+    font-size: 15px;
+}
