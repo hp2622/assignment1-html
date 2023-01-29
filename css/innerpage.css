@@ -371,9 +371,11 @@ form {
 #userdetails {
     margin-top: 20px;
 }
+
 #three-column {
     margin-top: 20px;
 }
+
 #focus-ip {
     width: 364px;
     height: 49px;
@@ -403,6 +405,7 @@ form {
 #four-column {
     margin-top: 20px;
 }
+
 #designation-ip {
     width: 266px;
     height: 49px;
@@ -427,6 +430,7 @@ form {
     border-radius: 5px;
 
 }
+
 #dropdown-ip1 {
     width: 260px;
     height: 49px;
@@ -434,40 +438,51 @@ form {
     border-radius: 5px;
     margin-left: 30px;
 }
-#upload{
+
+#upload {
     margin-top: 20px;
 }
-#radiobtn{
+
+#radiobtn {
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
     margin-right: 20px;
 }
-#radiobtn1{
-   
+
+#radiobtn1 {
+
     font-size: 20px;
     font-weight: bold;
     margin-right: 20px;
 }
-#error-info-msg-div{
+
+#snackbar {
+    margin-top: 20px;
+}
+
+#error-info-msg-div {
     display: flex;
     flex-direction: row;
     margin-top: 25px;
 
 }
-#error-div{
+
+#error-div {
     width: 563px;
     height: 44px;
     border: 1px solid #FF3535;
     border-radius: 5px;
     padding: 7px 0 0 10px;
-    
+
 }
-#error-image{
+
+#error-image {
     width: 20px;
     height: 20px;
 }
-#infomsg-div{
+
+#infomsg-div {
     width: 563px;
     height: 44px;
     border: 1px solid #00B9E1;
@@ -475,30 +490,34 @@ form {
     padding: 7px 0 0 10px;
     margin-left: 33px;
 }
-#infomsg-image{
+
+#infomsg-image {
     width: 20px;
     height: 20px;
 }
 
 
-#warning-success-msg-div{
+#warning-success-msg-div {
     display: flex;
     flex-direction: row;
     margin-top: 25px;
 }
-#warning-div{
+
+#warning-div {
     width: 563px;
     height: 44px;
     border: 1px solid #FFA800;
     border-radius: 5px;
     padding: 7px 0 0 10px;
-    
+
 }
-#warning-image{
+
+#warning-image {
     width: 20px;
     height: 20px;
 }
-#success-div{
+
+#success-div {
     width: 563px;
     height: 44px;
     border: 1px solid #00AF27;
@@ -506,10 +525,37 @@ form {
     padding: 7px 0 0 10px;
     margin-left: 33px;
 }
-#success-image{
+
+#success-image {
     width: 20px;
     height: 20px;
 }
 
+#calltoaction {
+    margin-top: 20px;
+}
 
+#primary-secondary-button {
+    margin-top: 20px;
+}
 
+#Primary-button {
+    width: 124px;
+    height: 45px;
+    color: white;
+    font-size: 18px;
+    background: #C8242F;
+    border-radius: 23px;
+    font-weight: bold;
+    border: none;
+}
+
+#secondary-button {
+    width: 124px;
+    height: 45px;
+    border: 1px solid #C8242F;
+    border-radius: 22px;
+    margin-left: 20px;
+    color: #C8242F;
+    font-weight: bold;
+}
