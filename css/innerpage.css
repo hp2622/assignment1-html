@@ -1,0 +1,515 @@
+.dashboard {
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.menu-bar {
+    width: 30px;
+    height: 30px;
+}
+
+.header-logo {
+    width: 142px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.search-icon {
+    width: 25px;
+    height: 25px;
+    margin-top: 3px;
+    margin-left: 77px;
+}
+
+.search-box {
+    width: 910px;
+    height: 21px;
+    margin-top: 3px;
+    margin-left: 14.74px;
+    border: 0;
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bell {
+    height: 22px;
+    width: 22px;
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.profile-pic {
+    height: 35px;
+    width: 35px;
+    margin-left: 30px;
+}
+
+span {
+    width: 90px;
+    font-size: 16px;
+    height: 21px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.downward-arrow {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+}
+
+/* sidebar */
+
+.side-bar {
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* sidebar-dashboard  */
+
+.sidebar-dashboard {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.sidebar-dashboard img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-dashboard a {
+    width: 78px;
+    height: 21px;
+    color: #C8242F;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-analysis */
+
+.sidebar-analysis {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-analysis img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-analysis a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-inbox  */
+
+.sidebar-inbox {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-inbox img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-inbox a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-history  */
+
+.sidebar-history {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-history img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-history a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-user */
+
+.sidebar-user {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-user img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-user a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-maintenance */
+
+.sidebar-maintenance {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-maintenance img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-maintenance a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* sidebar-setting */
+
+.sidebar-setting {
+    display: flex;
+    flex-direction: row;
+    width: 183px;
+    height: 43px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.sidebar-setting img {
+    width: 20px;
+    height: 20px;
+    margin-top: 2px;
+}
+
+.sidebar-setting a {
+    width: 78px;
+    height: 21px;
+    color: #3E3E3E;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    margin-left: 13px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sub-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #fafafa;
+}
+
+.div-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.current-open {
+
+    margin-top: 24px;
+    width: 146px;
+    height: 39px;
+}
+
+.current-open span {
+    font-size: 30px;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+
+/* form  */
+form {
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+
+#ip-name {
+    width: 1157px;
+    height: 50px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+
+}
+
+#ip-dropdown {
+    width: 1157px;
+    height: 50px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#textarea {
+    width: 1157px;
+    height: 130px;
+    margin-top: 20px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+#two-column {
+    margin-top: 20px;
+}
+
+#name-ip {
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+}
+
+#username-ip {
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#password-ip {
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+
+#dropdown-ip {
+    width: 563px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#userdetails {
+    margin-top: 20px;
+}
+#three-column {
+    margin-top: 20px;
+}
+#focus-ip {
+    width: 364px;
+    height: 49px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+#password-ip1 {
+    width: 364px;
+    height: 49px;
+    margin-left: 32px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+
+}
+
+#disabled-ip {
+    width: 364px;
+    height: 49px;
+    margin-left: 31px;
+    border: 3px solid #ADADAD;
+    border-radius: 5px;
+    border-style: dotted;
+
+}
+
+#four-column {
+    margin-top: 20px;
+}
+#designation-ip {
+    width: 266px;
+    height: 49px;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+#name-ip2 {
+    width: 266px;
+    height: 49px;
+    margin-left: 32px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+
+}
+
+#username-ip1 {
+    width: 266px;
+    height: 49px;
+    margin-left: 31px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+
+}
+#dropdown-ip1 {
+    width: 260px;
+    height: 49px;
+    border: 1px solid #ADADAD;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+#upload{
+    margin-top: 20px;
+}
+#radiobtn{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#radiobtn1{
+   
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#error-info-msg-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+
+}
+#error-div{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #FF3535;
+    border-radius: 5px;
+    padding: 7px 0 0 10px;
+    
+}
+#error-image{
+    width: 20px;
+    height: 20px;
+}
+#infomsg-div{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00B9E1;
+    border-radius: 5px;
+    padding: 7px 0 0 10px;
+    margin-left: 33px;
+}
+#infomsg-image{
+    width: 20px;
+    height: 20px;
+}
+
+
+#warning-success-msg-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+#warning-div{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #FFA800;
+    border-radius: 5px;
+    padding: 7px 0 0 10px;
+    
+}
+#warning-image{
+    width: 20px;
+    height: 20px;
+}
+#success-div{
+    width: 563px;
+    height: 44px;
+    border: 1px solid #00AF27;
+    border-radius: 5px;
+    padding: 7px 0 0 10px;
+    margin-left: 33px;
+}
+#success-image{
+    width: 20px;
+    height: 20px;
+}
+
+
+
