@@ -7,22 +7,23 @@ body {
 
     display: flex;
     flex-direction: row;
-    
+    width: 1560px;
+    height: 720px;
 
 }
 
 .left-div {
     margin-left: 90px;
     margin-top: 72px;
+
 }
 
 .left-div img {
-    border-radius: 50%;
+    border-radius: 1000px;
     top: 72px;
     left: 166px;
     height: 500px;
     width: 500px;
-    display: block;
     margin: 15%;
     background: transparent url('img/Ellipse 2.png') 0% 0% no-repeat padding-box;
     box-shadow: 0px 4px 31px #0000000A;
@@ -31,12 +32,13 @@ body {
 
 .right-div {
     margin-top: 106px;
-    margin-left: 200px;
+    margin-left: 150px;
+
 }
 
 .logo-img {
-    top: 106px;
-    left: 906px;
+    /* top: 106px;
+    left: 906px; */
     width: 272px;
     height: 58px;
     margin-bottom: 19.17px;
@@ -111,4 +113,58 @@ h5 {
 
 .span1 {
     font-size: 15px;
+}
+
+
+/* mediaquery */
+
+@media only screen and (min-width:360px) and (max-width:1300px) {
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+
+    }
+
+    .left-div img {
+        margin-top: 0px;
+        height: 70%;
+        width: 60%;
+
+    }
+
+    .left-div {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .right-div {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: auto;
+    }
+
+    .p1 {
+        width: 80%;
+    }
+
+    .ipuname {
+        width: 80%;
+    }
+
+    form input {
+        width: 80%;
+
+    }
+
+    form button {
+        width: 20%;
+      
+    }
+
 }
