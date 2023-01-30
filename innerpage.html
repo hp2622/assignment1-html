@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innerpage</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/innerpage.css" />
+</head>
+<body>
+    <section class="main-header container-fluid">
+
+
+        <div class="left-header">
+            <img src="images/menu-bar.svg" id="menu" />
+           
+            <img src="images/header-logo.svg" id="header-logo" />
+
+            <div class="search-box">
+                <span>
+                    <img src="images/search-icon.svg" id="search-icon" />
+                    <input type="search" name="search" id="search-input" placeholder="Search"/>
+                </span>
+            </div>
+        </div>
+
+
+        <div class="right-header">
+            <img src="images/notification-icon.svg" id="notification-icon" />
+
+            <div class="profile">
+                <img src="images/profile.png" id="profile" />
+                <h6>John Doe</h6>
+                <img src="images/downward-arrow.svg" id="down-arrow" />
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="left-sidebar menu-bar-opened">
+            <div class="sidebar-items active">
+                <img src="images/dashboard-active.svg" class="dashboard-icon">
+                <h6 class="active">Dashboard</h6>
+            </div>
+
+            <div class="sidebar-items">
+                <img src="images/graph-default.svg" class="dashboard-icon">
+                <h6>Analysis</h6>
+            </div>
+
+
+            <div class="sidebar-items">
+                <img src="images/inbox-default.svg" class="dashboard-icon">
+                <h6>Inbox</h6>
+            </div>
+
+
+            <div class="sidebar-items">
+                <img src="images/clock-default.svg" class="dashboard-icon">
+                <h6>History</h6>
+            </div>
+
+
+            <div class="sidebar-items">
+                <img src="images/user-default.svg" class="dashboard-icon">
+                <h6>Users</h6>
+            </div>
+
+            
+            <div class="sidebar-items">
+                <img src="images/maintenance-default.svg" class="dashboard-icon">
+                <h6>Maintenance</h6>
+            </div>
+
+
+            <div class="sidebar-items">
+                <img src="images/setting-default.svg" class="dashboard-icon">
+                <h6>Setting</h6>
+            </div>
+        </div>
+
+        <div class="registration-form">
+            <h2>Analysis</h2>
+            <div class="main-form">
+            <div class="one-column-form">
+                <h5>One Column</h5>
+                <input type="text" name="name" id="one-column--name" placeholder="Name" />
+
+                <div class="one-column--dropdown">
+                    <input type="text" name="dropdown" id="one-column--dropdown" placeholder="Dropdown"/>
+                    <span><img src="images/downward-arrow.svg"></span>
+                </div>
+
+
+                <textarea name="one-column--multipleBox" id="one-column--multipleBox" cols="30" rows="10" placeholder="Multiple Line"></textarea>
+            </div>
+
+            <h5>Two Column</h5>
+            <div class="two-column-form">
+                
+            
+                <input type="text" name="name" id="one-column--name" placeholder="Name" />
+                <fieldset class="two-column--fieldset">
+                    <legend>username</legend>
+                    <input type="text" name="username" id="username" value="John Doe" />
+                </fieldset>
+
+           <input type="password" name="two-column--password"   id="two-column--password" placeholder="Password"    />
+
+           <div class="two-column--dropdown">
+            <input type="text" name="dropdown" id="two-column--dropdown" placeholder="Dropdown"/>
+            <!-- <span><img src="images/downward-arrow.svg"></span> -->
+            </div>
+                
+            </div>
+
+
+
+            <h5>Three Column</h5>
+            <div class="three-column-form">
+                <fieldset class="three-column--fieldset">
+                    <legend>focus</legend>
+                    <input type="text" name="username" id="username" value="John Doe" />
+                </fieldset>
+
+                <fieldset class="three-column--fieldset">
+            <legend>password</legend>
+            <input type="text" name="username" id="username" value="John Doe" />
+                </fieldset>
+
+            <fieldset class="three-column--fieldset">
+            <legend>disabled</legend>
+    <input type="text" name="username" id="username" value="John Doe" disabled/>
+          </fieldset>
+            </div>
+
+
+
+
+
+            <h5>Four Column</h5>
+            <div class="four-column-form">
+
+               <input type="text" name="" id="four-column--designation" value="UI designer">
+               <input type="text" name="" id="four-column--name" placeholder="Name">
+               <input type="text" name="" id="four-column--username" value="John Doe">
+               <input type="text" name="" id="four-column--dropdown" placeholder="select">
+            </div>
+
+
+            <h4 id="other_elements">Other Design Elements</h4>
+            <h4 id="file">File Upload</h4>
+            <input type="file" name="file" id="file-uplaod" />
+
+            <h4 class="font-style">
+                Radio Button
+            </h4>
+            <div class="radio">
+                <input type="radio" name="Option1" id="opt1">Option1
+                <input type="radio" name="Option1" id="opt2" checked>Option2
+            </div>
+
+            <div class="checkbox">
+                <input type="checkbox" name="Option1" id="checkbox1">Option1
+                <input type="checkbox" name="Option2" id="checkbox2" checked>Option2
+            </div>
+
+
+
+            <h4>SnackBar</h4>
+
+            <div class="grid-container snackbar">
+                <div class="alert-box alert">
+                    <span><img src="images/error-icon.svg" alt="" id="err-icon"></span>
+                    <span id="error-msg">This is an error message</span>
+                </div>
+                <div class="alert-box info">
+                    <span><img src="images/info-icon.svg" alt="" id="info-icon"></span>
+                    <span id="info-msg">This is an information message</span>
+                </div>
+                <div class="alert-box warning">
+                    <span><img src="images/warning-icon.svg" alt="" id="warning-icon"></span>
+                    <span id="warning-msg">This is a warning message</span>
+                </div>
+                <div class="alert-box check">
+                    <span><img src="images/check-icon.svg" alt="" id="check-icon"></span>
+                    <span id="succ-msg">This is a success message</span>
+                </div>
+            </div>
+
+            <h4>Call To Action</h4>
+
+            <div class="action-buttons">
+                <button class="primary-button">Primary</button>
+                <button class="secondary-button">Secondary</button>
+            </div>
+
+            <h4>Tabs</h4>
+
+            <div class="tabs">
+                <ul>
+                    <li>Tab1</li>
+                    <li>Tab2</li>
+                    <li>Tab3</li>
+                    <span class="underline"></span>
+                </ul>
+
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut, rem fuga aut corrupti cum porro magnam assumenda fugiat. Debitis, est.
+                </p>
+            </div>
+
+        </div>
+        </div>
+
+        
+    </section>
+
+</body>
+<script src="js/custom.js"></script>
+</html>
