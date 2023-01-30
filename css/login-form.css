@@ -91,6 +91,7 @@ form input {
 .form-button {
     display: flex;
     flex-direction: row;
+    gap: 10rem;
 }
 
 form button {
@@ -100,11 +101,12 @@ form button {
     border-radius: 23px;
     color: white;
     margin-top: 20px;
-    margin-right: 170.44px;
+    /* margin-right: 170.44px; */
 }
 
 h5 {
     margin-top: 31px;
+    width: auto;
 }
 
 .new-member {
@@ -118,7 +120,7 @@ h5 {
 
 /* mediaquery */
 
-@media only screen and (min-width:360px) and (max-width:1300px) {
+@media only screen and (min-width:360px) and (max-width:376px) {
     .main {
 
         display: flex;
@@ -126,6 +128,127 @@ h5 {
         width: auto;
         padding-left: 10%;
         padding-right: 10%;
+
+    }
+
+    .left-div img {
+        margin-top: 0px;
+        height: 70%;
+        width: 60%;
+        display: none;
+    }
+
+    .left-div {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+        /* display: none; */
+    }
+
+    .right-div {
+        margin-left: 0px;
+        margin-top: 10%;
+        width: auto;
+    }
+
+    .p1 {
+        width: 100%;
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    span {
+
+        font-size: 20px;
+
+    }
+
+    .ipuname {
+        width: 100%;
+    }
+
+    form input {
+        width: 100%;
+
+    }
+
+    form button {
+        width: 20%;
+
+    }
+
+}
+
+
+@media only screen and (min-width:376px) and (max-width:426px) {
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 20px;
+
+    }
+
+    .left-div img {
+        margin-top: 0px;
+        height: 70%;
+        width: 60%;
+        display: none;
+
+    }
+
+    .left-div {
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+    .right-div {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: auto;
+        margin-left: 10%;
+    }
+
+    .p1 {
+        width: 100%;
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .ipuname {
+        width: 80%;
+    }
+
+    form input {
+        width: 80%;
+
+    }
+
+    form button {
+        width: 20%;
+
+    }
+
+}
+
+@media only screen and (min-width:426px) and (max-width:769px) {
+    .main {
+
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        padding-left: 10%;
+        /* padding-right: 10%; */
 
     }
 
@@ -147,10 +270,16 @@ h5 {
         margin-left: 0px;
         margin-top: 0px;
         width: auto;
+        margin-left: 10%;
     }
 
     .p1 {
         width: 80%;
+        font-size: 30px;
+    }
+
+    span {
+        font-size: 30px;
     }
 
     .ipuname {
@@ -164,7 +293,173 @@ h5 {
 
     form button {
         width: 20%;
-      
+
+    }
+
+}
+@media only screen and (min-width:769px) and (max-width:896px) {
+    .main {
+
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding-left: 10%;
+        gap: 7rem;
+        /* padding-right: 10%; */
+
+    }
+
+    .left-div img {
+        width: 100%;
+        margin-top: 20%;
+        height: auto;
+
+    }
+
+    .left-div {
+        margin-left: 0px;
+
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    .right-div {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 40%;
+        height: 100%;
+
+        /* margin-left: 10%; */
+    }
+
+    .logo-img {
+        /* top: 106px;
+        left: 906px; */
+        width: 200px;
+        height: 58px;
+        margin-bottom: 19.17px;
+    }
+
+    .p1 {
+        width: 100%;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    .ipuname {
+        width: 250px;
+        height: 30px;
+    }
+
+    form input {
+        width: 250px;
+        height: 30px;
+    }
+
+    form button {
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .form-button {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    .right-div .p2{
+        font-size: 15px;
+    }
+    h5{
+        font-size: 10px;
+    }
+    .span1{
+        font-size: 10px;
+    }
+
+
+}
+
+@media only screen and (min-width:896px) and (max-width:1025px) {
+    .main {
+
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        padding-left: 10%;
+        gap: 10rem;
+        /* padding-right: 10%; */
+
+    }
+
+    .left-div img {
+        width: 100%;
+        margin-top: 20%;
+        height: auto;
+
+    }
+
+    .left-div {
+        margin-left: 0px;
+
+        width: 30%;
+        margin-top: 0px;
+    }
+
+    .right-div {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 40%;
+        height: 100%;
+
+        /* margin-left: 10%; */
+    }
+
+    .logo-img {
+        /* top: 106px;
+        left: 906px; */
+        width: 200px;
+        height: 58px;
+        margin-bottom: 19.17px;
+    }
+
+    .p1 {
+        width: 100%;
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    span {
+        font-size: 25px;
+    }
+
+    .ipuname {
+        width: 250px;
+        height: 30px;
+    }
+
+    form input {
+        width: 250px;
+        height: 30px;
+    }
+
+    form button {
+        width: 100px;
+        height: 30px;
+
+    }
+
+    .form-button {
+        display: flex;
+        flex-direction: row;
+        gap: 5rem;
+    }
+    .right-div .p2{
+        font-size: 15px;
     }
 
 }
